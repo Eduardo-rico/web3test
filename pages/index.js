@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+
+// window.ethereum.request({method: 'eth_requestAccounts'})
+// .then(console.log)
+
 export default function Home() {
   return (
     <div className={styles.container}>
